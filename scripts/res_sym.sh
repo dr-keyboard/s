@@ -12,6 +12,5 @@ ln -s ~/s/vim/vim_current/.vimrc ~/.vimrc
 ln -s ~/s/vim/vim_current/.dircolors ~/.dircolors
 ln -s ~/s/vim/vim_current/.bashrc ~/.bashrc
 ln -s ~/s/vim/vim_current/.inputrc ~/.inputrc
-#ln -s ~/s/vim/vim_current/.viminfo ~/.viminfo
 
 exit 0
