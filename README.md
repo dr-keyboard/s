@@ -1,0 +1,4 @@
+s
+=
+
+dot files management
