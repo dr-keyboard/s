@@ -1,0 +1,37 @@
+# These scripts were created to help in managing this revision control system
+
+# This backup system, paired with a revision control system, should work out
+# pretty nicely (although the revision control may not like the symlinks
+
+
+1. To perform a backup:
+   ./new_rev.sh
+
+2. To manually change which folder vim_current points at
+   ./chg_vim_sym.sh new_folder_name
+
+3. To perform a backup on a new system:
+   ./bak_sym.sh
+   #note, it will copy things by default, issuing a warning about it
+
+4. To delete the existing symlinks pointing into ~/s/vim/vim_current:
+   ./del_sym.sh
+   #might be useful when trying out someone elses stuff
+
+5. To restore symlinks to ~/s/vim/vim_current
+   ./res_sym.sh
+
+Typically the following tasks occur:
+
+1. Performing a Backup
+   see 1 above
+
+2. Changing the vim folder
+   see 2 above
+
+3. Verifying that symlinked files are in use
+   ./bak_sym.sh && ./del_sym.sh && ./res_sym.sh
+
+
+#This concludes the scripting
+#Goodbye.
